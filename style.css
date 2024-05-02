@@ -54,6 +54,7 @@ p {
   box-shadow: var(--box-shadow);
   border: none;
   color: white;
+  text-align: center;
 }
 
 .about-link {
@@ -86,8 +87,88 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 600px) {
-  body {
-    background: green;
+@media (max-width: 2560px) {
+  ul,
+  li {
+    font-size: 24px;
+    margin: auto;
+    font-weight: 500;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .intro {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  ul,
+  li {
+    font-size: 20px;
+    align-items: center;
+  }
+
+  li:hover {
+    background: #6c63ff;
+  }
+  .navbar-brand {
+    font-size: 28px;
+    color: rgb(21, 164, 235);
+    font-weight: 500;
+  }
+  button[type="btn"][name="button"],
+  .contact-link {
+    display: block;
+    margin: auto;
+  }
+  h2,
+  p {
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+  }
+}
+@media (max-width: 2560px) {
+  button[type="btn"][name="button"],
+  .contact-link {
+    display: block;
+    margin: auto;
+  }
+  h2,
+  p {
+    padding: 10px;
+
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    display: block;
+    margin: 0auto;
+  }
+}
+@media (max-width: 500px) {
+  img {
+    display: none;
+  }
+  container {
+    padding: 20px;
+    margin: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h3 {
+    font-weight: 500;
+  }
+  col {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
