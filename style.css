@@ -52,6 +52,7 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  border: nones;
   color: white;
 }
 
@@ -84,4 +85,9 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 600px) {
+  body {
+    background: green;
+  }
 }
