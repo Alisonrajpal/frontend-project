@@ -87,24 +87,7 @@ h2 {
 }
 
 /*nav bar */
-.navbar-brand {
-  font-family: var(--heading) !important;
-  font-weight: bold;
-  color: var(--branding-color) !important;
-}
-.navbar-toggler {
-  color: var(--branding-color) !important;
-}
-.nav-link {
-  font-size: 30px !important;
-  text-align: center;
-  padding: 10px 20px;
-  font-family: var(--heading);
-  color: blue !important;
-}
-.active {
-  color: grey !important;
-}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
